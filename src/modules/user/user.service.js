@@ -32,7 +32,7 @@ async function paginated(params) {
       .limit(perPage)
       .skip(perPage * page)
       .sort(sort)
-
+     
       .exec();
   
     return pager.createPager(page,data,count,perPage)

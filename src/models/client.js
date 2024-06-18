@@ -2,14 +2,11 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const clientSchema = new mongoose.Schema({
-  firtname: String,
-  lastname: String,
-  email: String,
-  domicilio:String,
-  celular:String,
-  documento:String,
-  rol:String,
-  area:String,
+  localidad: String,
+  codigo_postal: String,
+  producto: String,
+  tipo_cliente: String,
+  User: { type:Schema.Types.ObjectId, ref: 'User' } // Referencia al modelo User por su nombre como string
 });
 
 const clientModel = mongoose.model("Client", clientSchema);
