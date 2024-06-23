@@ -6,7 +6,7 @@ const clientSchema = new mongoose.Schema({
   codigo_postal: String,
   producto: String,
   tipo_cliente: String,
-  User: { type:Schema.Types.ObjectId, ref: 'User' } // Referencia al modelo User por su nombre como string
+  user: { type:Schema.Types.ObjectId, ref: 'User' } // Referencia al modelo User por su nombre como string
 });
 
 const clientModel = mongoose.model("Client", clientSchema);
