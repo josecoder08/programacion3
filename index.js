@@ -26,9 +26,11 @@ const bodyParser = require('body-parser');
 const app = express()
 const port = process.env.PORT
 
-
+const allowedOrigins = ['https://front-programacion3.vercel.app'];
 // Enable CORS
-app.use(cors());
+app.use(cors({
+  origin: allowedOrigins
+}));
 
 // Enable the use of request body parsing middleware
 app.use(bodyParser.json());
