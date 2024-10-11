@@ -4,7 +4,7 @@ https://programacion3-wb86.vercel.app/
 
 
 postman
-https://app.getpostman.com/join-team?invite_code=5795dc4941a39dea3c9daaf10e35dfb2&target_code=6ae190506d21763cda016f6343838a6d
+https://dark-equinox-434810.postman.co/workspace/p3-Workspace~1b3016d2-8fdc-4d76-883c-c01e119d0a78/collection/26833132-06d1e5c6-d9f4-497b-ab0e-b63bd5d86485?action=share&creator=26833132
 
 
 git 

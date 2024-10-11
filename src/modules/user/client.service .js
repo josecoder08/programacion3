@@ -24,7 +24,7 @@ async function save(client) {
 }
 
 async function paginated(params) {
-    let perPage = params.perPage ? params.perPage : 10,
+    let perPage = params.perPage ? params.perPage : 50,
         page = Math.max(0, params.page),
         filter = params.filter ? params.filter : {},
         sort = params.sort ? params.sort : {};
